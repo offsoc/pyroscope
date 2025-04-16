@@ -1,6 +1,7 @@
 module github.com/grafana/pyroscope/api
 
 go 1.22.7
+toolchain go1.24.1
 
 require (
 	connectrpc.com/connect v1.16.2
@@ -15,8 +16,8 @@ require (
 )
 
 require (
-	golang.org/x/net v0.28.0 // indirect
-	golang.org/x/sys v0.25.0 // indirect
-	golang.org/x/text v0.19.0 // indirect
+	golang.org/x/net v0.38.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20240528184218-531527333157 // indirect
 )
